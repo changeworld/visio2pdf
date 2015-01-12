@@ -1,0 +1,54 @@
+AllCops:
+  # Include gemspec and Rakefile
+  Include:
+    - '*.gemspec'
+    - 'Rakefile'
+    - '**/*.rb'
+  Exclude:
+    - 'config/**/*' 
+    - 'db/**/*'
+    - 'app/views/**/*'
+    - 'node_modules/**/*'
+    - 'front/**/*'
+    - 'vendor/**/*'
+    - 'Guardfile'
+
+# Simple comments described in native language.
+Style/AsciiComments:
+  Enabled: false
+
+# Respect RubyMine formatter
+Style/CaseIndentation:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+# Despise this Style Guide
+Style/NumericLiterals:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+# There is no described in Ruby Style Guide
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/SpaceInsideBlockBraces:
+  Enabled: false
+
+Style/SymbolProc:
+  Enabled: false
