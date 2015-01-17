@@ -1,5 +1,7 @@
 # Visio2pdf
 
+[![Gem Version](https://badge.fury.io/rb/visio2pdf.svg)](http://badge.fury.io/rb/visio2pdf)
+
 Visio2pdf converts Visio files to PDF files.
 
 ## Requirements
