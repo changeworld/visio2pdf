@@ -1,6 +1,7 @@
 # Visio2pdf
 
 [![Gem Version](https://badge.fury.io/rb/visio2pdf.svg)](http://badge.fury.io/rb/visio2pdf)
+[![Inline docs](http://inch-ci.org/github/changeworld/visio2pdf.svg?branch=master)](http://inch-ci.org/github/changeworld/visio2pdf)
 
 Visio2pdf converts Visio files to PDF files.
 
