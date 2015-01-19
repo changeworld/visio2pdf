@@ -41,7 +41,7 @@ Visio2pdf.exec([Existing directory path of the Visio file], e.g. '../visio')
 
 1. Fork it ( https://github.com/changeworld/visio2pdf/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Execute before commit your changes (bundle exec rake)
+3. Execute before commit your changes (`bundle exec rake`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create a new Pull Request
