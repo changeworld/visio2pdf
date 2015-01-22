@@ -2,9 +2,10 @@
 
 require 'win32ole'
 
-#
 # Visio2pdf converts Visio files to PDF files.
 #
+# @example
+#   require 'visio2pdf'
 module Visio2pdf
   VSDEXTS = '.vsd'
   PDFEXTS = '.pdf'
@@ -13,6 +14,12 @@ module Visio2pdf
   @vsd_fullpath = nil
   @pdf_fullpath = nil
 
+  # Converts Visio files to PDF files.
+  #
+  # @example
+  #   Visio2pdf.exec(in_dir)
+  #
+  # @param in_dir [String] existing directory path of the Visio file
   def self.exec(in_dir)
     @in_dir = in_dir
     begin
