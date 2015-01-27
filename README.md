@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/changeworld/visio2pdf/badges/gpa.svg)](https://codeclimate.com/github/changeworld/visio2pdf)
 [![Dependency Status](https://gemnasium.com/changeworld/visio2pdf.svg)](https://gemnasium.com/changeworld/visio2pdf)
 [![Inline docs](http://inch-ci.org/github/changeworld/visio2pdf.svg?branch=master)](http://inch-ci.org/github/changeworld/visio2pdf)
+[![Stories in Ready](https://badge.waffle.io/changeworld/visio2pdf.svg?label=ready&title=Ready)](http://waffle.io/changeworld/visio2pdf)
 
 Visio2pdf converts Visio files to PDF files.
 
