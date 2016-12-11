@@ -7,8 +7,8 @@ require 'win32ole'
 # @example
 #   require 'visio2pdf'
 module Visio2pdf
-  VSDEXTS = '.vsd'
-  PDFEXTS = '.pdf'
+  VSDEXTS = '.vsd'.freeze
+  PDFEXTS = '.pdf'.freeze
   @visio = nil
   @in_dir = nil
   @vsd_fullpath = nil
