@@ -7,6 +7,7 @@ require 'win32ole'
 # @example
 #   require 'visio2pdf'
 module Visio2pdf
+  private_class_method :convert, :get_filepath, :output
   VSDEXTS = '.vsd'.freeze
   PDFEXTS = '.pdf'.freeze
   @visio = nil
@@ -31,9 +32,7 @@ module Visio2pdf
     end
   end
 
-  private
-
-  def self.convert
+  def convert
     files = Dir["#{@in_dir}/[^~]*{#{VSDEXTS}}"]
     files.sort.each do |file|
       get_filepath file
@@ -41,12 +40,12 @@ module Visio2pdf
     end
   end
 
-  def self.get_filepath(file)
+  def get_filepath(file)
     @vsd_fullpath = File.expand_path(file)
     @pdf_fullpath = @vsd_fullpath.gsub(/\.vsd$/, PDFEXTS)
   end
 
-  def self.output
+  def output
     vsd = @visio.Documents.Open(@vsd_fullpath)
     vsd.ExportAsFixedFormat(
       FixedFormat: 1, OutputFileName: @pdf_fullpath, Intent: 0, PrintRange: 0
