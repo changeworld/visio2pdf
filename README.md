@@ -1,5 +1,6 @@
 # Visio2pdf
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Gem Version](https://badge.fury.io/rb/visio2pdf.svg)](http://badge.fury.io/rb/visio2pdf)
 [![Code Climate](https://codeclimate.com/github/changeworld/visio2pdf/badges/gpa.svg)](https://codeclimate.com/github/changeworld/visio2pdf)
 [![Dependency Status](https://gemnasium.com/changeworld/visio2pdf.svg)](https://gemnasium.com/changeworld/visio2pdf)
