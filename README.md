@@ -52,4 +52,4 @@ Visio2pdf.exec([Existing directory path of the Visio file], e.g. '../visio')
 
 ## License
 
-MIT License. For more imformation, please see LICENSE.txt.
+[MIT License](LICENSE). For more imformation, please see LICENSE.
