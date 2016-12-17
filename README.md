@@ -7,13 +7,13 @@
 [![Inline docs](http://inch-ci.org/github/changeworld/visio2pdf.svg?branch=master)](http://inch-ci.org/github/changeworld/visio2pdf)
 [![Stories in Ready](https://badge.waffle.io/changeworld/visio2pdf.svg?label=ready&title=Ready)](http://waffle.io/changeworld/visio2pdf)
 
-Visio2pdf converts Visio files to PDF files.
+Visio2PDF converts Visio files to PDF files.
 
 ## Requirements
 
 ### Operating system and Software
 
-Visio2pdf should run on Windows systems as long as Microsoft Visio 2010 is available on this platform.
+Visio2PDF should run on Windows systems as long as Microsoft Visio 2010 is available on this platform.
 
 ## Installation
 
