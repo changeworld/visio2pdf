@@ -1,4 +1,4 @@
-# Visio2pdf
+# Visio2PDF
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Gem Version](https://badge.fury.io/rb/visio2pdf.svg)](http://badge.fury.io/rb/visio2pdf)
