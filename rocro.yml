@@ -1,0 +1,4 @@
+docstand:
+  yard:
+    options:
+      --asset: LICENSE
