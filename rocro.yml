@@ -1,3 +1,11 @@
+inspecode:
+  cpd: default
+  reek: default
+  rubocop: auto-fix
+  unused: default
+  grep: default
+  misspell: auto-fix
+  rails_best_practices: default
 docstand:
   yard:
     options:
