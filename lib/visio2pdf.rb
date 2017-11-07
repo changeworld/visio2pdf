@@ -1,5 +1,3 @@
-# coding: utf-8
-
 require 'win32ole'
 
 # Visio2pdf converts Visio files to PDF files.
